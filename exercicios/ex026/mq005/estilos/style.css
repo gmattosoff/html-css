@@ -21,7 +21,7 @@ header > h1 {
 }
 
 nav {
-    display: block;
+    display: none;
 }
 
 nav > ul {
@@ -40,6 +40,19 @@ nav > ul > li > a {
 
 nav > ul > li > a:hover {
     background-color: rgb(126, 126, 126);
+}
+
+#burguer {
+    background-color: rgb(51, 51, 51);
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: rgb(171, 97, 72);
+    color: black;
 }
 
 main {
